@@ -3,7 +3,11 @@
 
 using namespace std;
 
-Monster::Monster()
+Monster::Monster(string name)
 {
-	cout << "Hellowoooo!\n";
+	_name = name;
+}
+
+void Monster::printName(){
+	cout << _name << endl;
 }

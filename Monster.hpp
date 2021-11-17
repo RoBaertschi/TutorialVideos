@@ -1,14 +1,18 @@
 #ifndef MONSTER_H
 #define MONSTER_H
 #pragma once
+#include <string>
+
+using namespace std;
 	
 class Monster  
 {
-	private:
+private:
+	string _name;
+public:
 
-	public:
-
-		Monster();
+	Monster(string name);
+	void printName();
 
 };
 #endif
